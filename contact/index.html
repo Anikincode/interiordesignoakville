@@ -53,7 +53,7 @@
    <label for="m">About your project</label><textarea id="m" name="message" rows="4"></textarea>
    <button class="btn" type="submit">Get in touch</button>
   </form>
-  <script>document.querySelectorAll('form[method="POST"]').forEach(function(f){var sent=false;f.addEventListener('submit',function(e){if(sent){e.preventDefault();return}sent=true;var b=f.querySelector('button[type=submit]');if(b){b.disabled=true;b.textContent='Sending...';setTimeout(function(){sent=false;b.disabled=false;b.textContent='Get in touch'},12000)}})})</script>
+  <script>document.querySelectorAll('form[method="POST"]').forEach(function(f){var sent=false;f.addEventListener('submit',function(e){if(sent){e.preventDefault();return}sent=true;var b=f.querySelector('button[type=submit]');if(b){b.disabled=true;b.textContent='Sending...'}})})</script>
  </div>
  <div>
   <h2>Visualize<br>your project</h2>
