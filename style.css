@@ -175,3 +175,6 @@ table.hours td{padding:.25rem 0;color:#e9e5de}
 .logo img{height:2.4rem;width:auto;display:block}
 .f-logo img{height:4rem;width:auto;display:block}
 @media (max-width:520px){.logo img{height:2rem}}
+.projects .lead{font-size:1.2rem;max-width:52rem;margin-bottom:1rem;color:#fff}
+.lead2{color:var(--muted);margin-bottom:2.5rem;max-width:52rem}
+.lead2 a{text-underline-offset:.2em}
